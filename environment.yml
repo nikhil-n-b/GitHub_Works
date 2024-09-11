@@ -5,6 +5,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - conda=24.7.1
   - python=3.10
   - cudf=23.06  # Specify the appropriate version
   - pip
