@@ -1,0 +1,12 @@
+name: myenv
+channels:
+  - rapidsai
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - cudf=23.06  # Specify the appropriate version
+  - pip
+  - pip:
+      # Add any additional pip packages here if needed
